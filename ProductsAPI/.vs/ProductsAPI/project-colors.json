@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46cc319d-3505-479a-8231-af9ed54b2e86": {
+      "ProjectGuid": "46cc319d-3505-479a-8231-af9ed54b2e86",
+      "DisplayName": "ProductsAPI.UI",
+      "ColorIndex": 0
+    },
+    "433fe6b1-2ed0-4aca-9664-9376325b72ff": {
+      "ProjectGuid": "433fe6b1-2ed0-4aca-9664-9376325b72ff",
+      "DisplayName": "ProductsAPI.Application",
+      "ColorIndex": 1
+    },
+    "0d6f196b-7082-4a35-9dfb-fd4aaa96fc24": {
+      "ProjectGuid": "0d6f196b-7082-4a35-9dfb-fd4aaa96fc24",
+      "DisplayName": "ProductsAPI.Domain",
+      "ColorIndex": 2
+    },
+    "25a6d0d4-0282-4fc5-91b6-74ed47e45524": {
+      "ProjectGuid": "25a6d0d4-0282-4fc5-91b6-74ed47e45524",
+      "DisplayName": "ProductsAPI.Persistance",
+      "ColorIndex": 3
+    },
+    "8b70e2f5-2c69-48e8-ad11-1aaa93f579ed": {
+      "ProjectGuid": "8b70e2f5-2c69-48e8-ad11-1aaa93f579ed",
+      "DisplayName": "ProductsAPI.InfrastructureIoC",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

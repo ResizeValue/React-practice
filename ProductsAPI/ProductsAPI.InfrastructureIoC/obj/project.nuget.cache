@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4qXMTGqs4NDabl9dShskwsrJ+FGX0wNp21yC6iZK5zF+truBnUZEDRfKkkAr8njW/Qt/7LbNrpTkI4ilFsaBXw==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.InfrastructureIoC\\ProductsAPI.InfrastructureIoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.kuznetsov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

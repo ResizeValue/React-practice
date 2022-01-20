@@ -1,0 +1,17 @@
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\bin\Debug\net6.0\ProductsAPI.Persistance.deps.json
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\bin\Debug\net6.0\ProductsAPI.Persistance.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\bin\Debug\net6.0\ref\ProductsAPI.Persistance.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\bin\Debug\net6.0\ProductsAPI.Persistance.pdb
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\bin\Debug\net6.0\ProductsAPI.Application.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\bin\Debug\net6.0\ProductsAPI.Domain.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\bin\Debug\net6.0\ProductsAPI.Application.pdb
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\bin\Debug\net6.0\ProductsAPI.Domain.pdb
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ProductsAPI.Persistance.csproj.AssemblyReference.cache
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ProductsAPI.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ProductsAPI.Persistance.AssemblyInfoInputs.cache
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ProductsAPI.Persistance.AssemblyInfo.cs
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ProductsAPI.Persistance.csproj.CoreCompileInputs.cache
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ProductsAPI.Persistance.csproj.CopyComplete
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ProductsAPI.Persistance.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ref\ProductsAPI.Persistance.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Persistance\obj\Debug\net6.0\ProductsAPI.Persistance.pdb

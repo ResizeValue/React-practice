@@ -1,0 +1,15 @@
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\bin\Debug\net6.0\ProductsAPI.Application.deps.json
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\bin\Debug\net6.0\ProductsAPI.Application.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\bin\Debug\net6.0\ref\ProductsAPI.Application.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\bin\Debug\net6.0\ProductsAPI.Application.pdb
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\bin\Debug\net6.0\ProductsAPI.Domain.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\bin\Debug\net6.0\ProductsAPI.Domain.pdb
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ProductsAPI.Application.csproj.AssemblyReference.cache
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ProductsAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ProductsAPI.Application.AssemblyInfoInputs.cache
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ProductsAPI.Application.AssemblyInfo.cs
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ProductsAPI.Application.csproj.CoreCompileInputs.cache
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ProductsAPI.Application.csproj.CopyComplete
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ProductsAPI.Application.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ref\ProductsAPI.Application.dll
+C:\Work\React-practice\ProductsAPI\ProductsAPI.Application\obj\Debug\net6.0\ProductsAPI.Application.pdb
