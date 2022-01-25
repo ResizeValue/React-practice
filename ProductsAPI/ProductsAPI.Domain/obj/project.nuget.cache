@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2UVZQgbDTi0NYh8B49TiBGtAtZpbbLL8fjiddauzFrJwE2nYv7S+NxKzzy3Ug+3LqnINS4zlNkQoAej3PIsELg==",
+  "dgSpecHash": "rK0nT+eAGad7UJZG9j7jzH1NoyW/DcxNNt2WdO2GIR2NJF8yk7jw6ZZ4BSk4xk1RZ+5IErfhHekh9a3qMWUt7A==",
   "success": true,
-  "projectFilePath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj",
+  "projectFilePath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

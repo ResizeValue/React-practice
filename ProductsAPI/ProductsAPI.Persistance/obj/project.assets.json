@@ -45,19 +45,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a.kuznetsov\\.nuget\\packages\\": {}
+    "C:\\Users\\alex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj",
+      "projectUniqueName": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj",
       "projectName": "ProductsAPI.Persistance",
-      "projectPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj",
-      "packagesPath": "C:\\Users\\a.kuznetsov\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\obj\\",
+      "projectPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj",
+      "packagesPath": "C:\\Users\\alex\\.nuget\\packages\\",
+      "outputPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\a.kuznetsov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -71,8 +71,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj": {
-              "projectPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj"
+            "C:\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj": {
+              "projectPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj"
             }
           }
         }
@@ -101,7 +101,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

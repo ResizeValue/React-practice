@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj": {}
+    "C:\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj": {
+    "C:\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj",
+        "projectUniqueName": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj",
         "projectName": "ProductsAPI.Application",
-        "projectPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj",
-        "packagesPath": "C:\\Users\\a.kuznetsov\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Application\\obj\\",
+        "projectPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\alex\\.nuget\\packages\\",
+        "outputPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.kuznetsov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj": {
-                "projectPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj"
+              "C:\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj": {
+                "projectPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj"
               }
             }
           }
@@ -58,21 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj": {
+    "C:\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj",
+        "projectUniqueName": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj",
         "projectName": "ProductsAPI.Domain",
-        "projectPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj",
-        "packagesPath": "C:\\Users\\a.kuznetsov\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\obj\\",
+        "projectPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\ProductsAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\alex\\.nuget\\packages\\",
+        "outputPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.kuznetsov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,21 +112,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj": {
+    "C:\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj",
+        "projectUniqueName": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj",
         "projectName": "ProductsAPI.Persistance",
-        "projectPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj",
-        "packagesPath": "C:\\Users\\a.kuznetsov\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\obj\\",
+        "projectPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\ProductsAPI.Persistance.csproj",
+        "packagesPath": "C:\\Users\\alex\\.nuget\\packages\\",
+        "outputPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.kuznetsov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,8 +140,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj": {
-                "projectPath": "C:\\Work\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj"
+              "C:\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj": {
+                "projectPath": "C:\\React-practice\\ProductsAPI\\ProductsAPI.Application\\ProductsAPI.Application.csproj"
               }
             }
           }
@@ -170,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

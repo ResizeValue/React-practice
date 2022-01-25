@@ -4,33 +4,27 @@ import ModalDialog from '../Components/UI/ModalDialog';
 import { deleteProductById, getProducts } from '../API/ProductsAPI';
 
 const Products = () => {
-
-    const [state, setState] = useState({
-        isLoading: true,
-        products: null,
-        totalProducts: 0,
-        curPage: 1,
-        pageSize: 12,
-        curProduct: null,
-        modal: false
-    });
+    const [isLoading, setLoading] = useState(true);
+    const [products, setProducts] = useState(null);
+    const [totalProducts, setTotalProducts] = useState(0);
+    const [curPage, setCurPage] = useState(1);
+    const [pageSize, setPageSize] = useState(12);
+    const [curProduct, setCurProduct] = useState(null);
+    const [modal, setModal] = useState(false);
 
     useEffect(() => {
-        getProductsList(state.curPage, state.pageSize);
+        getProductsList(curPage, pageSize);
     }, [])
 
     async function getProductsList(page, pageSize) {
         try {
             const productsPage = await getProducts(page, pageSize);
-            const newState = { ...state }
 
-            newState.products = productsPage.products;
-            newState.totalProducts = productsPage.totalProducts;
-            newState.isLoading = false;
-            newState.modal = false;
-            newState.curPage = page;
-
-            setState(newState);
+            setProducts(productsPage.products);
+            setTotalProducts(productsPage.totalProducts);
+            setLoading(false);
+            setModal(false);
+            setCurPage(page);
         }
         catch (error) {
             console.log(error);
@@ -41,13 +35,13 @@ const Products = () => {
         try {
             const response = await deleteProductById(id);
             if (response.status === 200) {
-                const totalPages = Math.ceil(state.totalProducts / state.pageSize);
+                const totalPages = Math.ceil(totalProducts / pageSize);
 
-                if (state.curPage > totalPages) {
-                    getProductsList(state.curPage - 1, state.pageSize);
+                if (curPage > totalPages) {
+                    getProductsList(curPage - 1, pageSize);
                 }
                 else {
-                    getProductsList(state.curPage, state.pageSize);
+                    getProductsList(curPage, pageSize);
                 }
             }
         }
@@ -56,36 +50,32 @@ const Products = () => {
         }
     }
 
-    if (state.isLoading) {
+    if (isLoading) {
         return <h1 className="text-center text-5xl p-8">Loading...</h1>
     }
 
     const onDeleteHandler = (product) => {
-        const newState = { ...state }
-        newState.modal = true;
-        newState.curProduct = product;
-        setState(newState);
+        setModal(true);
+        setCurProduct(product);
     }
 
     const onDeleteConfirm = () => {
-        deleteProduct(state.curProduct.id);
+        deleteProduct(curProduct.id);
         clearModal();
     }
 
     const clearModal = () => {
-        const newState = { ...state }
-        newState.modal = false;
-        newState.curProduct = null;
-        setState(newState);
+        setModal(false);
+        setCurProduct(null);
     }
 
-    const isFirstPage = state.curPage === 1;
-    const isLastPage = state.curPage >= Math.ceil(state.totalProducts / state.pageSize);
-    const totalPages = Math.ceil(state.totalProducts / state.pageSize);
+    const isFirstPage = curPage === 1;
+    const isLastPage = curPage >= Math.ceil(totalProducts / pageSize);
+    const totalPages = Math.ceil(totalProducts / pageSize);
 
     return (
         <div className="w-full flex flex-col">
-            {state.modal ? <ModalDialog onDelete={onDeleteConfirm} onCancel={clearModal} />
+            {modal ? <ModalDialog onDelete={onDeleteConfirm} onCancel={clearModal} />
                 : null}
             <div>
                 <div className="flex w-full justify-center p-4">
@@ -98,10 +88,10 @@ const Products = () => {
             </div>
 
             {
-                state.products === null || state.products.length < 1
+                products === null || products.length < 1
                     ? <h1 className="text-center text-gray-700 text-5xl p-5 font-semibold">No products found</h1>
                     : <div className="mt-3 grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-4 w-full justify-center">
-                        {state.products.map((product, index) => {
+                        {products.map((product, index) => {
                             return (
                                 <div key={index} className="p-3 w-full text-center text-white max-w-screen-sm h-64 overflow-hidden bg-zinc-600 transition
                         hover:bg-zinc-500">
@@ -139,26 +129,26 @@ const Products = () => {
                 {
                     isFirstPage
                         ? <button disabled className="p-1 mr-2 hover:bg-sky-400 w-24 hover:text-gray-800 rounded-lg bg-gray-800 text-sky-400 transition-colors disabled:opacity-75"
-                            onClick={() => getProductsList(state.curPage - 1, state.pageSize)}>Prev</button>
+                            onClick={() => getProductsList(curPage - 1, pageSize)}>Prev</button>
                         : <button className="p-1 mr-2 hover:bg-sky-400 w-24 hover:text-gray-800 rounded-lg bg-gray-800 text-sky-400 transition-colors disabled:opacity-75"
-                            onClick={() => getProductsList(state.curPage - 1, state.pageSize)}>Prev</button>
+                            onClick={() => getProductsList(curPage - 1, pageSize)}>Prev</button>
 
                 }
 
                 {[...Array(totalPages < 1 ? 1 : totalPages)].map((obj, index) => {
                     return (<button key={index}
                         className={`p-1 ml-2 mr-2 hover:bg-sky-400 w-16 h-16 hover:text-gray-800 rounded-lg transition-colors `
-                            + (index + 1 === state.curPage ? "bg-sky-700 text-white" : "bg-gray-800 text-sky-400")}
-                        onClick={() => getProductsList(index + 1, state.pageSize)}
+                            + (index + 1 === curPage ? "bg-sky-700 text-white" : "bg-gray-800 text-sky-400")}
+                        onClick={() => getProductsList(index + 1, pageSize)}
                     >{index + 1}</button>)
                 })}
 
                 {
                     isLastPage
                         ? <button disabled className="p-1 ml-2 hover:bg-sky-400 w-24 hover:text-gray-800 rounded-lg bg-gray-800 text-sky-400 transition-colors disabled:opacity-75"
-                            onClick={() => getProductsList(state.curPage + 1, state.pageSize)}>Next</button>
+                            onClick={() => getProductsList(curPage + 1, pageSize)}>Next</button>
                         : <button className="p-1 ml-2 hover:bg-sky-400 w-24 hover:text-gray-800 rounded-lg bg-gray-800 text-sky-400 transition-colors disabled:opacity-75"
-                            onClick={() => getProductsList(state.curPage + 1, state.pageSize)}>Next</button>
+                            onClick={() => getProductsList(curPage + 1, pageSize)}>Next</button>
 
                 }
 
