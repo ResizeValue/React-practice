@@ -1,6 +1,0 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/Back/PtoPlanner.Domain/Periods/PeriodDay.cs
-/Back/PtoPlanner.Application/Services
